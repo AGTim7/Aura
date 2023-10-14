@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 400;
+  src: local('MullerRegullar'),
+    url('../fonts/MullerRegular.woff2') format('woff2'), 
+    url('../fonts/MullerRegular.woff') format('woff');
+    font-display: swap;
+}
+@font-face {
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 700;
+  src: local('MullerBold'),
+    url('../fonts/MullerBold.woff2') format('woff2'), 
+    url('../fonts/MullerBold.woff') format('woff');
+    font-display: swap;
+}
+@font-face {
+  font-family: 'RussoOne';
+  font-style: normal;
+  font-weight: 400;
+  src: local('RussoOne-Regular'),
+    url('../fonts/RussoOne-Regular.woff2') format('woff2'), 
+    url('../fonts/RussoOne-Regular.woff') format('woff');
+    font-display: swap;
+}
