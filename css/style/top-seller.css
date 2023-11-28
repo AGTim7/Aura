@@ -1,0 +1,43 @@
+.top-seller {
+  margin-top: 90px;
+  background: #07060B;
+}
+.top-seller-container{
+  padding: 90px 0;
+}
+.top-seller__h1 {
+  color: #ffffff;
+}
+.top-seller-grid {
+  display: grid;
+  margin-top: 32px;
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  grid-template-columns: 1fr 1fr;
+}
+.top-seller-grid-el{
+  display: flex;
+  padding: 16px 0px 16px 16px;
+  background: linear-gradient(90deg,#EDEDF2 22.7564103%, #FFFFFF 77.2435897%);
+  border-radius: 40px;
+}
+.top-seller-grid-el-info {
+  margin: 16px 0px 0px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.top-seller-grid-el-info-profile {
+  display: flex;
+  align-items: center;
+}
+.top-seller-grid-el-info-profile__nickname {
+  margin-left: 8px;
+  font-size: 16px;
+}
+.top-seller-grid-el-info__h3 {
+  font-size: 48px;
+}
+.top-seller-grid-el-info-price__dollar {
+  color: #95959D;
+}

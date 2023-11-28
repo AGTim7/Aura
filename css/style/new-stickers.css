@@ -1,0 +1,50 @@
+.new-stickers {
+  margin-top: 90px;
+  background:#07060B;
+  padding-bottom: 100px;
+}
+.new-stickers-h2 {
+  display: flex;
+}
+.new-sticker-h2__image {
+  margin-top: 90px;
+}
+.new-sticker-h2__text {
+  margin: 90px 0px 0px 16px;
+  color: #ffffff;
+}
+.new-stickers-slideshow__stickers {
+  margin-top: 32px;
+}
+/* JS Begin */
+.new-stickers-slideshow-slide { 
+  justify-content: space-between;
+}
+.slide-hide {
+  display: none;
+}
+/* JS End */
+.new-stickers-slideshow-buttons {
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.new-stickers-slideshow-button{
+  color: #ffffff;
+  padding: 10px 24px;
+  border-radius: 40px;
+  border: 2px solid #D13130;
+}
+.new-stickers-slideshow-button:hover{
+  background: #FF6F6F;
+  border-color: #FF6F6F;
+}
+.new-stickers-slideshow-button:focus{
+  background: #FF6F6F;
+  border-color: #FF6F6F;
+}
+.new-stickers-slideshow-button:active{
+  background: #D13130;
+  border-color: #D13130;
+}

@@ -1,0 +1,130 @@
+.header-logo{
+  margin: 20px 0 20px 0;
+}
+.header-top {
+  height: 80px;
+  width: 100%;
+  display: flex;
+}
+.header-nav {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  margin: 20px 0 20px 72px;
+}
+.header-nav-el{
+  display: block;
+  padding: 4px 10px;
+}
+.header-nav-el:hover{
+  color: #46F4DB;
+}
+.header-nav-el:focus{
+  color: #07060B;
+  padding: 4px 8px;
+  border: 2px solid #57D272;
+  transform: translate(0px, 4px);
+}
+.header-nav-el:active{
+  color: #57D272;
+}
+.header-button {
+  font-size: 16px;
+  display: flex;
+  width: 132px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 77px;
+  background: #07060B;
+  color: #ffffff;
+  margin: 20px 0 20px auto;
+}
+.header-button:hover{
+  background: #46F4DB;
+  color: #07060B;
+}
+.header-button:focus{
+  background: #46F4DB;
+  color: #07060B;
+}
+.header-button:active{
+  background: #57D272;
+}
+.header-bottom {
+  background: #07060B;
+  color: #ffffff;
+  padding: 160px 0;
+  background-image: url(/images/header/stickers_hero.png);
+  background-repeat: no-repeat;
+  background-position-x: 50vmax;
+}
+.header-bottom__flex-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header-bottom__flex-left__buttons{
+  display: flexbox;
+  align-items: center;
+  margin-top: calc(25px + 38px);
+}
+.header-bottom__h1 {
+  font-family: 'RussoOne';
+}
+.header-bottom__buy-button {
+  padding: 25px 54px;
+  border-radius: 40px; 
+  background: linear-gradient(#46F4DB, #57D272);
+}
+.header-bottom__buy-button:hover{
+  background:#46F4DB ;
+}
+.header-bottom__buy-button:focus{
+  background:#46F4DB ;
+}
+.header-bottom__buy-button:active{
+  background:#57D272;
+}
+.header-bottom__bec-autor {
+  position: relative;
+  color: #FFFFFF;
+  margin-left: 32px;
+  padding: 20px 49px;
+  border-radius: 40px;
+  background: #07060B;
+  border-radius: 40px;
+  z-index: 1;
+}
+.header-bottom__bec-autor::after{
+  content: "";
+  position: absolute;
+  width: 247px;
+  height: 70px;
+  background: linear-gradient(#46F4DB, #57D272);
+  left: -5px;
+  top: -5px;
+  border-radius: 40px;
+  z-index: -1;
+}
+.header-bottom__bec-autor:hover{
+  background: linear-gradient(#46F4DB, #57D272);
+  color: #07060B;
+  padding: 25px 54px;
+  margin-left: 28px;
+}
+.header-bottom__bec-autor:focus{
+  color: #07060B;
+  background: #46F4DB;
+  padding: 25px 54px;
+  margin-left: 28px;
+}
+.header-bottom__bec-autor:active{
+  background: #57D272;
+}
+.header-bottom__bec-autor:focus::after{
+  display: none;
+}
+.header-bottom__bec-autor:hover::after{
+  display: none;
+}
